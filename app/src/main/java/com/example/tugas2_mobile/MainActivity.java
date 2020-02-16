@@ -143,7 +143,7 @@ public class MainActivity extends AppCompatActivity {
 
                     double dAngka = Double.parseDouble(sAngka);
 
-                    double result = Math.log(dAngka);
+                    double result = Math.log10(dAngka);
 
                     String sHasil = String.valueOf(result);
                     tHasil.setText(sHasil);
